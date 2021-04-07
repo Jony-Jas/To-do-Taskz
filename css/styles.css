@@ -48,6 +48,7 @@ select{
     width: 8rem;
     cursor: pointer;
     padding: 0.7rem;
+    background: white;
 }
 .select::after{
     content: "\25bc";
@@ -84,7 +85,7 @@ select{
 
 .todo li {
     flex: 1;
-    user-select: none;
+    /* user-select: none; */
 }
 .complete_btn, 
 .delete_btn{
@@ -151,7 +152,7 @@ li:hover {
         border: none;
         font-size: 1rem;
         background: white;
-        width: 130px;
+        width: 150px;
     }
     form button {
         color: #c065c0;
@@ -165,5 +166,9 @@ li:hover {
         width: 4rem;
         cursor: pointer;
         padding: 0.7rem;
+    }
+    .todo_list {
+        min-width: 80%;
+        list-style-type: none;
     }
 }
