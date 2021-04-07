@@ -9,8 +9,7 @@ todoButton.addEventListener("click", addTodo)
 todoList.addEventListener("click", deleteCheck)
 filterOption.addEventListener("click", filterTodo)
 
-if(localStorage.getItem('todos') != null)
-{
+
 function getFromLocalStorage() {
     const reference = localStorage.getItem('todos');
     const clss = localStorage.getItem('cls');
@@ -70,8 +69,7 @@ for(let i = 1; i<todos.length; i++ ){
 
 
     }
-  }
-getFromLocalStorage();
+ getFromLocalStorage();
 
 
 
