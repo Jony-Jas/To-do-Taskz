@@ -16,6 +16,5 @@ Tasks Manager with drag and replace feature.
 
 
 #### Connect with me:
-* Instagram: https://www.instagram.com/jonyrockstar7/
 * Linkedin: https://www.linkedin.com/in/jony-jas-8888591bb/
 * Github: https://github.com/Jony-Jas/
